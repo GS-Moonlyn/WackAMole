@@ -10,6 +10,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
 
     Button btnPlay;
+    Button btnRanking;
 
 
     @Override
@@ -18,6 +19,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         btnPlay = findViewById(R.id.btnPlay);
+        btnRanking = findViewById(R.id.btnRanking);
+
     }
 
 
@@ -27,6 +30,12 @@ public class MainActivity extends AppCompatActivity {
         if(view == btnPlay){
 
             Intent intent = new Intent( this, GameScreen.class);
+            startActivity(intent);
+            finish();
+
+        } else if(view == btnRanking){
+
+            Intent intent = new Intent( this, Ranking.class);
             startActivity(intent);
             finish();
         }

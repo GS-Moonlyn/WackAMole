@@ -11,8 +11,8 @@
     <Button
         android:id="@+id/btnPlay"
         style="@style/Widget.AppCompat.Button"
-        android:layout_width="194dp"
-        android:layout_height="141dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:background="#9E7A36"
         android:onClick="onClick"
         android:text="PLAY"
@@ -21,8 +21,22 @@
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.296" />
+
+    <Button
+        android:id="@+id/btnRanking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RANKING"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPlay"
+        app:layout_constraintVertical_bias="0.193" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

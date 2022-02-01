@@ -37,6 +37,9 @@ public class GameScreen extends AppCompatActivity {
     private int lastRNG;
     private Random random = new Random();
     public static int SCORE;
+    public static int getPontos() {
+        return SCORE;
+    }
     private List <ImageView> moles = new ArrayList<>();
     private TextView textScore;
     private final String TEXT_SCORE_BASE = "Score: ";

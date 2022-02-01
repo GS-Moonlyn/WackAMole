@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "997281432118",
+    "project_id": "wackamole-c9620",
+    "storage_bucket": "wackamole-c9620.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997281432118:android:a7e65cfb66cfd23755ce97",
+        "android_client_info": {
+          "package_name": "com.example.wack_a_mole"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997281432118-sev6k8c01809587254h9uqo0j08ooq5m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBl2Zy5cOzPdt3dX6z9HndjZx-6mfv9GYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997281432118-sev6k8c01809587254h9uqo0j08ooq5m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
